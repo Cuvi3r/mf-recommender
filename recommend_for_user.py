@@ -1,4 +1,4 @@
-"""Generates and prints a recommendations for users in the MovieLens mk-25m dataset.
+"""Generates and prints recommendations for users in the MovieLens mk-25m dataset.
 
 Example output can be seen in example_recommendations.txt"""
 
