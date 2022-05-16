@@ -1,3 +1,5 @@
+"""Verifies the integrity of the data in the DualDataStructure object, thereby testing its preprocessing algorithm."""
+
 import numpy as np
 import matplotlib.pyplot as plt
 from tqdm import tqdm
@@ -9,6 +11,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")
 
 import datastructures.dual as ds
 
+print("Loading and preprocessing data... ")
 ratings_path = "../data/ml-25m/ratings.csv"
 items_path = "../data/ml-25m/movies.csv"
 
