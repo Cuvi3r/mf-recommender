@@ -24,7 +24,7 @@ process_ml_25m.py\
 During this process the movies and users are reindexed for continquity and to start at 0.  The new movie indices and titles can be found at:\
 ./data/title_25m.txt
 
-Train the model on the full ml-25m data set comprising 25 million ratings:\
+Train the model on the full ml-25m data set comprising 25 million ratings, using the Alternating Least Squares algorithm:\
 train_ml_25m.py\
 <img src=https://user-images.githubusercontent.com/103119572/168556922-f5891be0-96f3-4320-943f-1a4ab5f131cf.png width=50% height=50%>
 
