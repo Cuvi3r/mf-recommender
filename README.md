@@ -20,7 +20,9 @@ The pre-trained model can be downloaded from https://www.icloud.com/iclouddrive/
 ## Example usage:
 
 Loading and preprocessing data:\
-process_ml_25m.py
+process_ml_25m.py\
+During this process the movies and users are reindexed for continquity and to start at 0.  The new movie indices and titles can be found at:\
+./data/title_25m.txt
 
 Train the model on the full ml-25m data set comprising 25 million ratings:\
 train_ml_25m.py\
