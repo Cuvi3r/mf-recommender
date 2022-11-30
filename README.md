@@ -1,4 +1,4 @@
-# Matrix Factorisation based Recommender System
+# Matrix factorisation based Recommender System
 
 #### Matthew Johl - 25699679
 #### Stellenbosch University
