@@ -32,7 +32,7 @@ Generate recommendations for a user in the data set:\
 python recommend_for_user.py
 
 Plot the 2D latent feature representation for movies:\
-plot_item_features.py\
+python plot_item_features.py\
 <img src=https://user-images.githubusercontent.com/103119572/168557119-85ac3f49-0979-44df-8d5d-b9386ee43714.png width=50% height=50%>
 
 ## Test scripts
@@ -41,7 +41,7 @@ The integrity of the data preprocessing and loading into the custom data structu
 ./test/test_datastruct_integrity.py
 
 A sanity check for recommendations produced by the trained model can use:\
-./test/test_recommendation.py\
+python ./test/test_recommendation.py\
 Sample output:\
 ./test/test_recommendation_output.txt
 
