@@ -1,7 +1,6 @@
 # Matrix factorisation based Recommender System
 
-#### Matthew Johl - 25699679
-#### Stellenbosch University
+#### Matthew Johl 
 
 Created as part of the Applied Machine Learning at Scale course.
 
