@@ -20,16 +20,16 @@ The pre-trained model can be downloaded from https://www.icloud.com/iclouddrive/
 ## Example usage:
 
 Loading and preprocessing data:\
-process_ml_25m.py\
+python process_ml_25m.py\
 During this process the movies and users are reindexed for continquity and to start at 0.  The new movie indices and titles can be found at:\
 ./data/title_25m.txt
 
 Train the model on the full ml-25m data set comprising 25 million ratings, using the Alternating Least Squares algorithm:\
-train_ml_25m.py\
+python train_ml_25m.py\
 <img src=https://user-images.githubusercontent.com/103119572/168556922-f5891be0-96f3-4320-943f-1a4ab5f131cf.png width=50% height=50%>
 
 Generate recommendations for a user in the data set:\
-recommend_for_user.py
+python recommend_for_user.py
 
 Plot the 2D latent feature representation for movies:\
 plot_item_features.py\
